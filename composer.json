@@ -1,0 +1,14 @@
+{
+    "name": "hrpr-uk/failed-order-discount",
+    "description": "Failed order discount",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://github.com/hrpr-uk/failed-order-discount/",
+    "authors": [
+      {
+        "name": "hrpr",
+        "email": "ross@hrpr.co.uk",
+        "homepage": "https://hrpr.co.uk"
+      }
+    ]
+}
