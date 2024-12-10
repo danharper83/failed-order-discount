@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<ruleset name="Wordpress">
+  <description>Wordpress Coding Standards</description>
+  <config name="minimum_supported_wp_version" value="4.4.0" />
+  <!-- <config name="testVersion" value="0.6-"/> -->
+
+  <rule ref="WordPress-Core" />
+  <rule ref="WordPress-Docs" />
+  <rule ref="WordPress-Extra">
+    <exclude name="Generic.WhiteSpace.ScopeIndent.IncorrectExact" />
+  </rule>
+
+  <rule ref="WordPress.WP.I18n">
+      <properties>
+          <property name="text_domain" type="array" value="your-text-domain" />
+      </properties>
+  </rule>
+
+  <!-- Check all PHP files in directory tree by default. -->
+  <arg name="extensions" value="php"/>
+  <file>.</file>
+</ruleset>
