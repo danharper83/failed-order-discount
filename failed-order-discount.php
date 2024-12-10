@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce failed order discount reset
+ * Plugin Name:  Failed order discount reset
  * Plugin URI: https://github.com/hrpr-uk/failed-order-discount
  * description: Reset the coupon usage count and customer usage record when an order fails.
  * Version: 1.0.0
