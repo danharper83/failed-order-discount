@@ -1,12 +1,10 @@
 # Failed order discount
 
-**Contributors:** HRPR  
-**Tags:** WooCommerce, discount codes, coupons, failed orders, plugin  
-**Requires at least:** 5.0  
-**Tested up to:** 6.7  
-**Requires PHP:** 7.4  
-**Stable tag:** 1.0.0  
-**License:** GPLv2 or later  
+**Contributors:** danhrpr, rosshrpr
+**Tags:** WooCommerce, discount codes, coupons, failed orders
+**Tested up to:** 6.7
+**Stable tag:** 1.0.0
+**License:** GPLv2 or later
 **License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)  
 
 Fixes the issue in WooCommerce where failed orders prevent discount codes from being reused.

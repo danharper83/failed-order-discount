@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/hrpr-uk/failed-order-discount
  * description: Reset the coupon usage count and customer usage record when an order fails.
  * Version: 1.0.0
- * Author: HRPR
+ * Author: danhrpr
  * Author URI: https://www.hrpr.co.uk/
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -23,7 +23,7 @@
  *
  * @param int $order_id The ID of the failed order.
  */
-function reset_coupon_usage_on_failed_order( $order_id ) {
+function failed_order_discount_reset_coupon_usage( $order_id ) {
 
 	$order = wc_get_order( $order_id );
 	if ( $order ) {
@@ -54,4 +54,4 @@ function reset_coupon_usage_on_failed_order( $order_id ) {
 		}
 	}
 }
-add_action( 'woocommerce_order_status_failed', 'reset_coupon_usage_on_failed_order' );
+add_action( 'woocommerce_order_status_failed', 'failed_order_discount_reset_coupon_usage' );
